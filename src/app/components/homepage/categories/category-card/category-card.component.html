@@ -1,0 +1,14 @@
+<div class="card">
+  <img class="card-img-top img-bordered center-block product-item" 
+        [src]="category.image" [alt]="category.title">
+  <div class="card-body text-center">
+      <h4 class="card-title">{{category.title}}</h4>
+      <p class="card-text">
+        {{category.desc}}
+      </p>
+      <button role="button" class="btn btn-warning text-dark btn-lg" 
+              (click)="filterProduct(category)">
+        Browse Products
+      </button>
+  </div>  
+</div>

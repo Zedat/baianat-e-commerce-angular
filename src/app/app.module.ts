@@ -1,13 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { CategoriesLayoutComponent } from './components/homepage/categories/categories-layout/categories-layout.component';
 
-import { AppComponent } from './app.component';
-import { NavComponent } from './homepage/nav/nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent
+    CategoriesLayoutComponent,
   ],
   imports: [
     BrowserModule
