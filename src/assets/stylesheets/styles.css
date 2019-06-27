@@ -2,15 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette|Raleway|Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Mali&display=swap');
+
 #headTitle {
   font-family: 'Mali', cursive;
   font-size: 1.7em;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
 
 html,
 body {
@@ -42,30 +39,15 @@ height: 100%;
   }
 }
 
-
-
-body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  color: #5a5a5a;
-}
-
-
-
-
-/* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
 }
-/* Since positioning the image, we need to help out the caption */
+
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
 }
 
-
-
-/* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
 }

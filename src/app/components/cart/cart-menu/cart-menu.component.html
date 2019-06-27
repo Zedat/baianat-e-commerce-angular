@@ -9,15 +9,15 @@
 
           <div *ngIf="cart.count">
               <div class="table-resposive">
-                  <table class="table mr-2 table-bordered">
-                      <thead class="thead-info text-center">
-                          <tr>
-                              <th scope="col" class="font-weight-bold">Product</th>
-                              <th scope="col" class="font-weight-bold">Price</th>
-                              <th scope="col" class="font-weight-bold">Count</th>
-                              <th scope="col" class="font-weight-bold">Amount</th>
-                          </tr>
-                      </thead>
+                  <table class="table mr-2 table-bordered text-center">
+                      <thead class="thead-dark">
+                        <tr>
+                        <th scope="col" class="font-weight-bolder">Product</th>
+                        <th scope="col" class="font-weight-bolder">Price</th>
+                        <th scope="col" class="font-weight-bolder">Count</th>
+                        <th scope="col" class="font-weight-bolder">Amount</th>
+                        </tr>
+                     </thead>
                       <tbody>
                           <tr *ngFor="let item of cart.items" class="text-center">
                               <td>{{item.product.title}}</td>
