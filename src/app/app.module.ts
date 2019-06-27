@@ -17,13 +17,15 @@ import { ProductsModule } from './modules/products.module';
  */
 import { routing } from './app.routes';
 import { CartMenuComponent } from './components/cart/cart-menu/cart-menu.component';
+import { CartViewComponent } from './components/cart/cart-view/cart-view.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     FooterComponent,
-    CartMenuComponent  
+    CartMenuComponent,
+    CartViewComponent  
   ],
   imports: [
     BrowserModule,
