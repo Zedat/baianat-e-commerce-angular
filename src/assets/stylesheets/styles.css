@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Raleway|Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mali&display=swap');
+#headTitle {
+  font-family: 'Mali', cursive;
+  font-size: 1.7em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+width: 100%;
+height: 100%;
+}
+
+#content {
+  font-family: 'Raleway', sans-serif;
+}
+
+#navTitle {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.4em;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+
+
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+a:hover { 
+  cursor: pointer; 
+}
+
+.card-deck-wrapper .card-deck {
+  width: auto;
+}
+
+.card-deck-wrapper .card-deck .card {
+  width: 261;
+}
+
+@media (max-width: 544px) {
+  .card-deck-wrapper .card-deck {
+      width: 100%;
+  }
+
+  .card-deck-wrapper .card-deck .card {
+      width: 100%;
+  }
+}
+
+.card-deck-wrapper {
+  padding-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
