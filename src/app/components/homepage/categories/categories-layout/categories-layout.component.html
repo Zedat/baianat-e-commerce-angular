@@ -2,8 +2,8 @@
   <div class="row" *ngIf="cardCategories">
     <div class="col-xs-12 col-sm-6 col-md-4"
          *ngFor="let category of cardCategories">
-      <app-categorycard [category]="category" (select)="selectCategory($event)">
-      </app-categorycard>
+      <app-category-card [category]="category" (select)="selectCategory($event)">
+      </app-category-card>
     </div>
   </div>
 </div>

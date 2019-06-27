@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { Product, ProductService } from 'src/app/services/product.service';
+import { ActivatedRoute } from '@angular/router';
+import { CartService, CartItem } from 'src/app/services/cart.service';
 
 @Component({
   selector: 'app-product-view',
