@@ -6,32 +6,27 @@ import { NgModule } from '@angular/core';
 import { NavComponent } from './components/homepage/nav/nav.component';
 import { FooterComponent } from './components/homepage/footer/footer.component';
 import { AppComponent } from './app.component';
-import { HomepageModule } from './modules/homepage.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+/**
+ *  Modules
+ */
+import { HomepageModule } from './modules/homepage.module';
+import { ProductsModule } from './modules/products.module';
 /**
  * Routing
  */
 import { routing } from './app.routes';
-import { ProductCardComponent } from './components/products/product-card/product-card.component';
-import { ProductGridComponent } from './components/products/product-grid/product-grid.component';
-import { ProductSearchComponent } from './components/products/product-search/product-search.component';
-import { CategoriesListComponent } from './components/products/categories-list/categories-list.component';
-import { ProductViewComponent } from './components/products/product-view/product-view.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    FooterComponent,
-    ProductCardComponent,
-    ProductGridComponent,
-    ProductSearchComponent,
-    CategoriesListComponent,
-    ProductViewComponent
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     HomepageModule,
+    ProductsModule,
     FormsModule,
     ReactiveFormsModule,
     routing
