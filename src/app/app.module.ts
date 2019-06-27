@@ -6,7 +6,7 @@ import { NgModule } from '@angular/core';
 import { NavComponent } from './components/homepage/nav/nav.component';
 import { FooterComponent } from './components/homepage/footer/footer.component';
 import { AppComponent } from './app.component';
-import { HomepageModule } from './modules/homepage/homepage.module';
+import { HomepageModule } from './modules/homepage.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 /**
  * Routing
