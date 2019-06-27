@@ -16,12 +16,14 @@ import { ProductsModule } from './modules/products.module';
  * Routing
  */
 import { routing } from './app.routes';
+import { CartMenuComponent } from './components/cart/cart-menu/cart-menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    FooterComponent
+    FooterComponent,
+    CartMenuComponent  
   ],
   imports: [
     BrowserModule,
