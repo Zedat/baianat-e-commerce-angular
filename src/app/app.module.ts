@@ -12,25 +12,26 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
  */
 import { HomepageModule } from './modules/homepage.module';
 import { ProductsModule } from './modules/products.module';
+import { CartModule } from './modules/cart.module';
+
 /**
  * Routing
  */
 import { routing } from './app.routes';
-import { CartMenuComponent } from './components/cart/cart-menu/cart-menu.component';
-import { CartViewComponent } from './components/cart/cart-view/cart-view.component';
+import { CheckoutComponent } from './components/checkout/checkout.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     FooterComponent,
-    CartMenuComponent,
-    CartViewComponent  
+    CheckoutComponent      
   ],
   imports: [
     BrowserModule,
     HomepageModule,
     ProductsModule,
+    CartModule,
     FormsModule,
     ReactiveFormsModule,
     routing

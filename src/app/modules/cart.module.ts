@@ -5,15 +5,18 @@ import { CartViewComponent } from '../components/cart/cart-view/cart-view.compon
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { CartService } from '../services/cart.service';
+import { CheckoutComponent } from '../components/checkout/checkout.component';
 
 @NgModule({
   declarations: [
     CartMenuComponent,
-    CartViewComponent
+    CartViewComponent,
+    CheckoutComponent
   ],
   exports: [
     CartMenuComponent,
-    CartViewComponent
+    CartViewComponent,
+    CheckoutComponent
   ],
   imports: [
     CommonModule,
