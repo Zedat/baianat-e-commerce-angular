@@ -1,15 +1,30 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { CategoriesLayoutComponent } from './components/homepage/categories/categories-layout/categories-layout.component';
-
+/**
+ * Components
+ */
+import { NavComponent } from './components/homepage/nav/nav.component';
+import { FooterComponent } from './components/homepage/footer/footer.component';
+import { AppComponent } from './app.component';
+import { HomepageModule } from './modules/homepage/homepage.module';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+/**
+ * Routing
+ */
+import { routing } from './app.routes';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CategoriesLayoutComponent,
+    NavComponent,
+    FooterComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HomepageModule,
+    FormsModule,
+    ReactiveFormsModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
