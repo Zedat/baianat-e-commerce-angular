@@ -12,12 +12,16 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
  * Routing
  */
 import { routing } from './app.routes';
+import { ProductCardComponent } from './components/products/product-card/product-card.component';
+import { ProductGridComponent } from './components/products/product-grid/product-grid.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    FooterComponent
+    FooterComponent,
+    ProductCardComponent,
+    ProductGridComponent
   ],
   imports: [
     BrowserModule,
