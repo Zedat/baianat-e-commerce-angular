@@ -14,6 +14,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { routing } from './app.routes';
 import { ProductCardComponent } from './components/products/product-card/product-card.component';
 import { ProductGridComponent } from './components/products/product-grid/product-grid.component';
+import { ProductSearchComponent } from './components/products/product-search/product-search.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ProductGridComponent } from './components/products/product-grid/product
     NavComponent,
     FooterComponent,
     ProductCardComponent,
-    ProductGridComponent
+    ProductGridComponent,
+    ProductSearchComponent
   ],
   imports: [
     BrowserModule,
