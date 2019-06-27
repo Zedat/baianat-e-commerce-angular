@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Cart, CartService } from 'src/app/services/cart.service';
 
 @Component({
   selector: 'app-cart-menu',

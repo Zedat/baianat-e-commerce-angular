@@ -4,6 +4,9 @@ import { CartMenuComponent } from '../components/cart/cart-menu/cart-menu.compon
 import { CartViewComponent } from '../components/cart/cart-view/cart-view.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+/**
+ * Components
+ */
 import { CartService } from '../services/cart.service';
 import { CheckoutComponent } from '../components/checkout/checkout.component';
 

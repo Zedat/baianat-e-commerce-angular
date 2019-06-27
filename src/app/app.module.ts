@@ -18,14 +18,11 @@ import { CartModule } from './modules/cart.module';
  * Routing
  */
 import { routing } from './app.routes';
-import { CheckoutComponent } from './components/checkout/checkout.component';
-
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    FooterComponent,
-    CheckoutComponent      
+    FooterComponent
   ],
   imports: [
     BrowserModule,

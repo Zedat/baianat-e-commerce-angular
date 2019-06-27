@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter, Input, Output } from '@angular/core';
+import { Product } from 'src/app/services/product.service';
 
 @Component({
   selector: 'app-product-card',

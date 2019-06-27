@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Category, CategoryService } from 'src/app/services/category.service';
 
 @Component({
   selector: 'app-categories-layout',
