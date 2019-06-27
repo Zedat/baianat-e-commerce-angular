@@ -15,6 +15,8 @@ import { routing } from './app.routes';
 import { ProductCardComponent } from './components/products/product-card/product-card.component';
 import { ProductGridComponent } from './components/products/product-grid/product-grid.component';
 import { ProductSearchComponent } from './components/products/product-search/product-search.component';
+import { CategoriesListComponent } from './components/products/categories-list/categories-list.component';
+import { ProductViewComponent } from './components/products/product-view/product-view.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { ProductSearchComponent } from './components/products/product-search/pro
     FooterComponent,
     ProductCardComponent,
     ProductGridComponent,
-    ProductSearchComponent
+    ProductSearchComponent,
+    CategoriesListComponent,
+    ProductViewComponent
   ],
   imports: [
     BrowserModule,

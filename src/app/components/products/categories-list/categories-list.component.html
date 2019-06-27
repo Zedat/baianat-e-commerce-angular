@@ -1,0 +1,13 @@
+<div class="card m-3">
+  <div class="card-header font-weight-bolder bg-transparent border-info text-dark" 
+       style="font-size: 1.5rem;">
+       Categories
+  </div>
+  <div class="list-group list-group-flush">
+    <a class="list-group-item list-group-item-secondary" (click)="showAllProducts()">All</a>
+    <a class="list-group-item list-group-item-secondary" *ngFor="let category of categories"
+       (click)="filterProduct(category)">
+      {{category.title}}
+    </a>
+  </div>
+</div>
