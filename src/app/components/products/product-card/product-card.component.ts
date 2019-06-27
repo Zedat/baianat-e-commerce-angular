@@ -1,10 +1,11 @@
-import { Component, OnInit, EventEmitter, Input, Output } from '@angular/core';
+import { Component, OnInit, EventEmitter, Input, Output, ChangeDetectionStrategy } from '@angular/core';
 import { Product } from 'src/app/services/product.service';
 
 @Component({
   selector: 'app-product-card',
   templateUrl: './product-card.component.html',
-  styleUrls: ['./product-card.component.css']
+  styleUrls: ['./product-card.component.css'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ProductCardComponent {
 
