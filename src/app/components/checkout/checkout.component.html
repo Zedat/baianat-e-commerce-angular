@@ -3,50 +3,53 @@
     <div class="row">
       <div class="col-md-6">
         <form [formGroup]="form">
-          <div class="form-group row">
-            <label for="firstName" class="col-xs-2 col-form-label">
-              First Name
-            </label>
-            <div class="col-xs-10">
-              <input type="text" class="form-control ml-3" id="firstName"
+          <div class="container p-3">
+            <div class="form-group row">
+              <label for="firstName" class="col-xs-2 col-form-label">
+                First Name
+              </label>
+              <div class="col-xs-10">
+                <input type="text" class="form-control ml-3" id="firstName"
                      formControlName="firstName" value="" required>
+              </div>
             </div>
-          </div>
-          <div class="form-group row">
-            <label for="lastName" class="col-xs-2 col-form-label">
-              Last Name
-            </label>
-            <div class="col-xs-10">
-              <input type="text" class="form-control ml-3" id="lastName"
+            <div class="form-group row">
+              <label for="lastName" class="col-xs-2 col-form-label">
+                Last Name
+              </label>
+              <div class="col-xs-10">
+                <input type="text" class="form-control ml-3" id="lastName"
                       formControlName="lastName" value="">
+              </div>
             </div>
-          </div>
-          <div class="form-group row">
-            <label for="email" class="col-xs-2 col-form-label">
-              Email
-            </label>
-            <div class="col-xs-10">
-              <input type="email" class="form-control ml-3" id="email"
+            <div class="form-group row">
+              <label for="email" class="col-xs-2 col-form-label email">
+                Email
+              </label>
+              <div class="col-xs-10">
+                <input type="email" class="form-control ml-3" id="email"
                       formControlName="email" value="">
+              </div>
             </div>
-          </div>
-          <div class="form-group row">
-            <label for="phone" class="col-xs-2 col-form-label">
-              Phone
-            </label>
-            <div class="col-xs-10">
-              <input type="phone" class="form-control ml-3" id="phone"
+            <div class="form-group row">
+              <label for="phone" class="col-xs-2 col-form-label phone">
+                Phone
+              </label>
+              <div class="col-xs-10">
+                <input type="phone" class="form-control ml-3" id="phone"
                       formControlName="phone" value="">
+              </div>
             </div>
-          </div>
-          <div class="form-group row">
-            <label for="address" class="col-xs-2 col-form-label">
-              Address
-            </label>
-            <div class="col-xs-10">
-              <input type="text" class="form-control ml-3" id="address"
+            <div class="form-group row">
+              <label for="address" class="col-xs-2 col-form-label address">
+                Address
+              </label>
+              <div class="col-xs-10">
+                <input type="text" class="form-control ml-3" id="address"
                       formControlName="address" value="">
+              </div>
             </div>
+            
           </div>
         </form>
       </div>

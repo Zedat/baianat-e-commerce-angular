@@ -1,0 +1,22 @@
+
+
+input {
+    border-color: black;
+    border-width: .5px;
+}
+
+label {
+    margin: -4px;
+}
+
+label.email {
+    margin-right: 2rem;
+}
+
+label.phone {
+    margin-right: 1.6rem;
+}
+
+label.address {
+    margin-right: 0.8rem;
+}
