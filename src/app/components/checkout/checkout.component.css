@@ -1,5 +1,12 @@
+form {
+    vertical-align: center;
+    box-align: center;
+}
 
-
+.form-horizontal {
+    vertical-align: center;
+    box-align: center;
+}
 input {
     border-color: black;
     border-width: .5px;
